@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.add-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add-section input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.add-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-section button:hover {
+    background-color: #218838;
+}
+
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-section thead {
+    background-color: #f1f1f1;
+}
+
+.table-section #sortHeader {
+    cursor: pointer;
+}
+
+.table-section #sortHeader i {
+    font-size: 0.9em;
+    color: #666;
+    transition: color 0.2s ease;
+}
+
+.table-section th,
+.table-section td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table-section tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+td:last-child {
+    min-width: 83px;
+}
+
+.table-section button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.table-section button:nth-child(1) {
+    background-color: #ffc107;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.table-section button:nth-child(1):hover {
+    background-color: #e0a800;
+}
+
+.table-section button:nth-child(2) {
+    background-color: #dc3545;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
+.table-section button:nth-child(2):hover {
+    background-color: #c82333;
+}
