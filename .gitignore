@@ -1,1 +1,32 @@
-NgRx/node_modules
+# Node modules
+NgRx/node_modules/
+
+# Build output
+NgRx/dist/
+NgRx/build/
+
+# Dependency directories
+node_modules/
+
+# Angular specific
+NgRx/.angular/
+
+# IDE and editor specific files
+NgRx/.vscode
+NgRx/.idea/
+NgRx/*.suo
+*.user
+*.userosscache
+*.sln
+NgRx/.DS_Store
+NgRx/Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+NgRx/tmp/
+NgRx/temp/
+
