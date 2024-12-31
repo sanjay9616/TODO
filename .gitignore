@@ -6,7 +6,7 @@ NgRx/dist/
 NgRx/build/
 
 # Dependency directories
-node_modules/
+NgRx/node_modules/
 
 # Angular specific
 NgRx/.angular/
@@ -15,18 +15,17 @@ NgRx/.angular/
 NgRx/.vscode
 NgRx/.idea/
 NgRx/*.suo
-*.user
-*.userosscache
-*.sln
+NgRx/*.user
+NgRx/*.userosscache
+NgRx/*.sln
 NgRx/.DS_Store
 NgRx/Thumbs.db
 
 # Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+NgRx/npm-debug.log*
+NgRx/yarn-debug.log*
+NgRx/yarn-error.log*
 
 # Temporary files
 NgRx/tmp/
 NgRx/temp/
-
