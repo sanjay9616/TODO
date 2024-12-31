@@ -10,6 +10,9 @@ NgRx/node_modules/
 
 # Angular specific
 NgRx/.angular/
+NgRx/.editor
+
+NgRx/.angular
 
 # IDE and editor specific files
 NgRx/.vscode
