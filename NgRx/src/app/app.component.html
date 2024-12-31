@@ -1,9 +1,9 @@
 <div class="container">
   <div class="add-section">
-    <input id="taskInput" type="text" placeholder="Enter Task">
-    <button id="addTaskBtn" type="button">ADD</button>
+    <input type="text" placeholder="Enter Task">
+    <button type="button">ADD</button>
   </div>
-  <div id="tableSection" class="table-section">
+  <div class="table-section">
     <table mat-table [dataSource]="dataSource" matSort>
       <ng-container matColumnDef="serial">
         <th mat-header-cell *matHeaderCellDef> S.No. </th>

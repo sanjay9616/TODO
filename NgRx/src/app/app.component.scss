@@ -19,91 +19,83 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+
+    input {
+        flex: 1;
+        padding: 10px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #28a745;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+            background-color: #218838;
+        }
+    }
 }
 
-.add-section input {
-    flex: 1;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-right: 10px;
-}
+.table-section {
+    table {
+        width: 100%;
+        border-collapse: collapse;
 
-.add-section button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #28a745;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
+        th,
+        td {
+            text-align: left;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
 
-.add-section button:hover {
-    background-color: #218838;
-}
+        thead {
+            background-color: #f1f1f1;
+        }
 
-.table-section table {
-    width: 100%;
-    border-collapse: collapse;
-}
+        tbody tr:hover {
+            background-color: #f9f9f9;
+        }
 
-.table-section thead {
-    background-color: #f1f1f1;
-}
+        td:last-child {
+            min-width: 83px;
+        }
+    }
 
-.table-section #sortHeader {
-    cursor: pointer;
-}
+    button {
+        padding: 5px 10px;
+        font-size: 14px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-right: 5px;
 
-.table-section #sortHeader i {
-    font-size: 0.9em;
-    color: #666;
-    transition: color 0.2s ease;
-}
+        &:nth-child(1) {
+            background-color: #ffc107;
+            color: #fff;
+            transition: background-color 0.3s;
 
-.table-section th,
-.table-section td {
-    text-align: left;
-    padding: 10px;
-    border: 1px solid #ddd;
-}
+            &:hover {
+                background-color: #e0a800;
+            }
+        }
 
-.table-section tbody tr:hover {
-    background-color: #f9f9f9;
-}
+        &:nth-child(2) {
+            background-color: #dc3545;
+            color: #fff;
+            transition: background-color 0.3s;
 
-td:last-child {
-    min-width: 83px;
-}
-
-.table-section button {
-    padding: 5px 10px;
-    font-size: 14px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-right: 5px;
-}
-
-.table-section button:nth-child(1) {
-    background-color: #ffc107;
-    color: #fff;
-    transition: background-color 0.3s;
-}
-
-.table-section button:nth-child(1):hover {
-    background-color: #e0a800;
-}
-
-.table-section button:nth-child(2) {
-    background-color: #dc3545;
-    color: #fff;
-    transition: background-color 0.3s;
-}
-
-.table-section button:nth-child(2):hover {
-    background-color: #c82333;
+            &:hover {
+                background-color: #c82333;
+            }
+        }
+    }
 }
