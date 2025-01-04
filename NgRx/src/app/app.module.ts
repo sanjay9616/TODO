@@ -7,7 +7,8 @@ import { MatTableModule } from '@angular/material/table';
 import { MatSortModule } from '@angular/material/sort';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
-
+import { StoreModule } from '@ngrx/store';
+import { todoReducer } from './todo/todo.reducer';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MatIconModule } from '@angular/material/icon';
     MatTableModule,
     MatSortModule,
     MatButtonModule,
-    MatIconModule
+    MatIconModule,
+    StoreModule.forRoot({ todoStore: todoReducer }),
   ],
   providers: [],
   bootstrap: [AppComponent]
