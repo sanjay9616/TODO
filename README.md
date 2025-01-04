@@ -18,4 +18,8 @@ This project will be implemented using different technologies and approaches to 
 - **Edit Tasks**: Users can edit existing tasks by clicking the "edit" button, which prompts them to enter a new task value.
 - **Sorting Tasks**: Tasks can be sorted by task name or creation date, making it easier for users to manage and view tasks in a preferred order.
 
-![Screenshot from 2025-01-04 17-29-59](https://github.com/user-attachments/assets/f01a71ab-9308-4978-a3ac-6ec3f0e9fc1c)
+# TODO List User Interface
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f01a71ab-9308-4978-a3ac-6ec3f0e9fc1c" alt="Todo Screenshot">
+</p>
