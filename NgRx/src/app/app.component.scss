@@ -53,7 +53,7 @@ body {
         th,
         td {
             text-align: left;
-            padding: 10px;
+            padding: 5px;
             border: 1px solid #ddd;
         }
 
@@ -70,32 +70,51 @@ body {
         }
     }
 
-    button {
-        padding: 5px 10px;
-        font-size: 14px;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        margin-right: 5px;
+    .btn-container {
+        display: flex;
+        button {
+            padding: 5px 10px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-right: 5px;
 
-        &:nth-child(1) {
-            background-color: #ffc107;
-            color: #fff;
-            transition: background-color 0.3s;
+            &:nth-child(1) {
+                background-color: #ffc107;
+                color: #fff;
+                transition: background-color 0.3s;
 
-            &:hover {
-                background-color: #e0a800;
+                &:hover {
+                    background-color: #e0a800;
+                }
+            }
+
+            &:nth-child(2) {
+                background-color: #dc3545;
+                color: #fff;
+                transition: background-color 0.3s;
+
+                &:hover {
+                    background-color: #c82333;
+                }
             }
         }
+    }
+}
 
-        &:nth-child(2) {
-            background-color: #dc3545;
-            color: #fff;
-            transition: background-color 0.3s;
+.mdc-icon-button {
+    height: 25px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    margin: 0;
 
-            &:hover {
-                background-color: #c82333;
-            }
-        }
+    .mat-icon {
+        height: 100%;
+        width: 100%;
+        font-size: 22px;
     }
 }

@@ -9,6 +9,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { StoreModule } from '@ngrx/store';
 import { todoReducer } from './todo/todo.reducer';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { todoReducer } from './todo/todo.reducer';
     MatSortModule,
     MatButtonModule,
     MatIconModule,
+    ReactiveFormsModule,
     StoreModule.forRoot({ todoStore: todoReducer }),
   ],
   providers: [],
