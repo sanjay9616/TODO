@@ -7,6 +7,7 @@ NgRx/build/
 
 # Dependency directories
 NgRx/node_modules/
+context-api/node_modules/
 
 # Angular specific
 NgRx/.angular/
